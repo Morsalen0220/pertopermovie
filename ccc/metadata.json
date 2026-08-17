@@ -1,0 +1,8 @@
+{
+  "name": "SyncWatch Movie & YouTube Party",
+  "description": "Synchronized YouTube, movie, and video watching with real-time playback controls, live chat, and instant emoji reactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.6);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0px) scale(1.15);
+  }
+  30% {
+    transform: translateY(-30px) scale(1);
+  }
+  80% {
+    opacity: 0.9;
+    transform: translateY(-140px) scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.85);
+  }
+}
+
+/* Custom smooth dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
